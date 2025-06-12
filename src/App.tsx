@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar.tsx";
-import Home from "./pages/Home.tsx";
-import Vocabulary from "./pages/Vocabulary.tsx";
-import Lessons from "./pages/Lessons.tsx";
-import Games from "./pages/Games.tsx";
-import Progress from "./pages/Progress.tsx";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import Vocabulary from "./pages/Vocabulary";
+import Lessons from "./pages/Lessons";
+import Games from "./pages/Games";
+import Progress from "./pages/Progress";
 import "./index.css";
 
 const App: React.FC = () => {
